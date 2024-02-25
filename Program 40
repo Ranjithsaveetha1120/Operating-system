@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    // Example permissions: Owner=read+write, Group=read, Others=read+execute
+    char permissions[] = "-rw-r-xr--"; 
+
+    printf("File Access Permissions: %s\n", permissions);
+
+    return 0;
+}
